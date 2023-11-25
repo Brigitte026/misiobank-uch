@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 5px;
+    padding: 0;
+    background-color: rgba(3, 142, 142, 0.953)
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+  
+  h2 {
+    color: #f6e5e5;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .dashboard-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+  }
+  
+  h2 {
+    width: 100%; 
+    text-align: center;
+  }
+  
+  
+  
+  Aside {
+    flex-grow: 0;
+    width: 30%;
+    min-height: 460px; 
+    background-color: rgba(140, 201, 201, 0.953);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0;
+    float: left;
+  }
+  
+  Section {
+    flex-grow: 1;
+    min-height: 460px; 
+    background-color: rgba(176, 222, 222, 0.953);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #333;
+    background-color: rgba(214, 227, 227, 0.953);
+    border: 1px solid rgba(168, 179, 179, 0.953);
+    border-radius: 5px;
+    padding: 10px;
+    transition: background-color 0.3s; /* Agrega transición para un cambio suave */
+  }
+  
+  li:hover {
+    background-color: rgba(252, 255, 255, 0.953); /* Cambia el color al pasar el ratón */
+  }
+  
+  li:active {
+    background-color: rgba(215, 222, 222, 0.953); /* Cambia el color al hacer clic */
+  }
+  
+  ul + ul {
+    margin-top: 20px;
+  }
+  
